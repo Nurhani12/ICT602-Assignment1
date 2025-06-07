@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#020d21"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        android:layout_margin="8dp"
+        android:elevation="4dp"
+        android:layout_gravity="center"
+        android:backgroundTint="#ffffff"
+        android:clipToPadding="false"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp">
+
+        <TextView
+            android:id="@+id/detailMonth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Month: "
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:id="@+id/detailUnits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Units: "
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/detailCharges"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Charges: "
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/detailRebate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rebate: "
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/detailFinalCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Final Cost: "
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginTop="12dp" />
+    </LinearLayout>
+</ScrollView>
